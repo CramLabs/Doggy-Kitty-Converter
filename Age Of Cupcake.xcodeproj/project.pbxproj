@@ -13,6 +13,9 @@
 		8423845B19CA711E00F52DC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8423845A19CA711E00F52DC6 /* Images.xcassets */; };
 		8423845E19CA711E00F52DC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423845C19CA711E00F52DC6 /* LaunchScreen.xib */; };
 		8423846A19CA711E00F52DC6 /* Age_Of_CupcakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423846919CA711E00F52DC6 /* Age_Of_CupcakeTests.swift */; };
+		8423847419CB314B00F52DC6 /* AgeOfCupcake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8423847319CB314B00F52DC6 /* AgeOfCupcake.jpg */; };
+		84E8EC7219CB81CA001BA93E /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E8EC7119CB81CA001BA93E /* dog.jpg */; };
+		84E8EC7419CB8299001BA93E /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E8EC7319CB8299001BA93E /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		8423846319CA711E00F52DC6 /* Age Of CupcakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age Of CupcakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8423846819CA711E00F52DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8423846919CA711E00F52DC6 /* Age_Of_CupcakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_CupcakeTests.swift; sourceTree = "<group>"; };
+		8423847319CB314B00F52DC6 /* AgeOfCupcake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfCupcake.jpg; sourceTree = "<group>"; };
+		84E8EC7119CB81CA001BA93E /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		84E8EC7319CB8299001BA93E /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		8423845119CA711E00F52DC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84E8EC7319CB8299001BA93E /* cat.jpg */,
+				84E8EC7119CB81CA001BA93E /* dog.jpg */,
+				8423847319CB314B00F52DC6 /* AgeOfCupcake.jpg */,
 				8423845219CA711E00F52DC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E8EC7419CB8299001BA93E /* cat.jpg in Resources */,
 				8423845919CA711E00F52DC6 /* Main.storyboard in Resources */,
+				84E8EC7219CB81CA001BA93E /* dog.jpg in Resources */,
+				8423847419CB314B00F52DC6 /* AgeOfCupcake.jpg in Resources */,
 				8423845E19CA711E00F52DC6 /* LaunchScreen.xib in Resources */,
 				8423845B19CA711E00F52DC6 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +417,7 @@
 				8423846F19CA711E00F52DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8423847019CA711E00F52DC6 /* Build configuration list for PBXNativeTarget "Age Of CupcakeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				8423847219CA711E00F52DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
