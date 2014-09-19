@@ -14,6 +14,9 @@
 		8423845E19CA711E00F52DC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423845C19CA711E00F52DC6 /* LaunchScreen.xib */; };
 		8423846A19CA711E00F52DC6 /* Age_Of_CupcakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423846919CA711E00F52DC6 /* Age_Of_CupcakeTests.swift */; };
 		8423847419CB314B00F52DC6 /* AgeOfCupcake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8423847319CB314B00F52DC6 /* AgeOfCupcake.jpg */; };
+		84954E8519CCBD7A00BB8A54 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 84954E8419CCBD7A00BB8A54 /* gradient.png */; };
+		84954E8719CCBF6D00BB8A54 /* gradient2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84954E8619CCBF6D00BB8A54 /* gradient2.jpeg */; };
+		84954E8919CCBF7600BB8A54 /* gradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84954E8819CCBF7600BB8A54 /* gradient.jpg */; };
 		84E8EC7219CB81CA001BA93E /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E8EC7119CB81CA001BA93E /* dog.jpg */; };
 		84E8EC7419CB8299001BA93E /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E8EC7319CB8299001BA93E /* cat.jpg */; };
 /* End PBXBuildFile section */
@@ -40,6 +43,9 @@
 		8423846819CA711E00F52DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8423846919CA711E00F52DC6 /* Age_Of_CupcakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_CupcakeTests.swift; sourceTree = "<group>"; };
 		8423847319CB314B00F52DC6 /* AgeOfCupcake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfCupcake.jpg; sourceTree = "<group>"; };
+		84954E8419CCBD7A00BB8A54 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		84954E8619CCBF6D00BB8A54 /* gradient2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient2.jpeg; sourceTree = "<group>"; };
+		84954E8819CCBF7600BB8A54 /* gradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient.jpg; sourceTree = "<group>"; };
 		84E8EC7119CB81CA001BA93E /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 		84E8EC7319CB8299001BA93E /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +102,9 @@
 		8423845119CA711E00F52DC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84954E8819CCBF7600BB8A54 /* gradient.jpg */,
+				84954E8619CCBF6D00BB8A54 /* gradient2.jpeg */,
+				84954E8419CCBD7A00BB8A54 /* gradient.png */,
 				84E8EC7319CB8299001BA93E /* cat.jpg */,
 				84E8EC7119CB81CA001BA93E /* dog.jpg */,
 				8423847319CB314B00F52DC6 /* AgeOfCupcake.jpg */,
@@ -201,9 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84954E8919CCBF7600BB8A54 /* gradient.jpg in Resources */,
 				84E8EC7419CB8299001BA93E /* cat.jpg in Resources */,
 				8423845919CA711E00F52DC6 /* Main.storyboard in Resources */,
+				84954E8719CCBF6D00BB8A54 /* gradient2.jpeg in Resources */,
 				84E8EC7219CB81CA001BA93E /* dog.jpg in Resources */,
+				84954E8519CCBD7A00BB8A54 /* gradient.png in Resources */,
 				8423847419CB314B00F52DC6 /* AgeOfCupcake.jpg in Resources */,
 				8423845E19CA711E00F52DC6 /* LaunchScreen.xib in Resources */,
 				8423845B19CA711E00F52DC6 /* Images.xcassets in Resources */,
